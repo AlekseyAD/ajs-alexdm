@@ -45,4 +45,23 @@ runtime modules 396 bytes 2 modules
 ../../#github_rep/ajs-alexdm/src/index.js 142 bytes [built] [code generated]
 webpack 5.74.0 compiled successfully in 3819 ms
 
-Я так понимаю все прошло удачно.
+Я так понимаю все прошло удачно.ъ
+
+========================================================================================
+
+Проблема номер два.
+Выполнение команды npm publish, ответ:
+
+PS H:\#github_rep\ajs-alexdm> npm publish  
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path H:\package.json
+npm ERR! errno -4058
+npm ERR! enoent ENOENT: no such file or directory, open 'H:\package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\AlexDM\AppData\Local\npm-cache\_logs\2022-08-31T14_39_58_131Z-debug-0.log
+
+Решения пока нет.
