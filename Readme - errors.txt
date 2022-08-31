@@ -1,3 +1,5 @@
+Сделал все согласно задания но на шаге 6 при выполнении npm run build выдает ошибку:
+
 PS H:\#github_rep\ajs-alexdm> npm run build
 
 > @alekseyad/ajs-alexdm@1.0.0 build
