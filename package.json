@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/"
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "build": "webpack --mode production"
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/AlekseyAD/ajs-alexdm.git"
   },
-  "author": "",
+  "author": "coursar",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AlekseyAD/ajs-alexdm/issues"
